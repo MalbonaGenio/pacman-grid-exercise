@@ -1,0 +1,68 @@
+body {
+  background-color: #FFCCF9;
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  margin-top: 30px;
+  width: 396px;
+  height: 396px;
+  border: solid white 8px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+  border: solid white 0.5px;
+}
+
+.wall {
+  background-color: blue;
+}
+
+.path {
+  background-color: yellow;
+  border-radius: 50%;
+  transform: scale(0.3)
+}
+
+.coin {
+  background-color: yellowgreen;
+  border-radius: 50%;
+  transform: scale(0.7)
+}
+
+.pacman {
+  background-color: yellow;
+  border-radius: 50%;
+  transform: scale(0.9)
+}
+
+.blueghost {
+  background-color: lightblue;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  transform: scale(0.9)
+}
+.redghost {
+  background-color: red;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  transform: scale(0.9)
+}
+.orangeghost {
+  background-color: orange;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  transform: scale(0.9)
+}
+.pinkghost {
+  background-color: pink;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  transform: scale(0.9)
+}
